@@ -1,0 +1,22 @@
+.headerWrapper {
+  position: relative;
+  width: 100vw;
+  height: 150px;
+  background: url("../images/headerBackground.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+
+  .headerText {
+    width: 100%;
+    position: absolute;
+    bottom: 1vh;
+    font-family: $header-font-fam;
+    font-weight: bolder;
+
+    h1 {
+      color: #fff;
+      font-size: 4rem;
+    }
+  }
+}

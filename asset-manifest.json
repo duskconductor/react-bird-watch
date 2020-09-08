@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/react-bird-watch/static/js/main.6170b2bd.chunk.js",
+    "main.js.map": "/react-bird-watch/static/js/main.6170b2bd.chunk.js.map",
+    "runtime-main.js": "/react-bird-watch/static/js/runtime-main.09775564.js",
+    "runtime-main.js.map": "/react-bird-watch/static/js/runtime-main.09775564.js.map",
+    "static/js/2.a53f85b3.chunk.js": "/react-bird-watch/static/js/2.a53f85b3.chunk.js",
+    "static/js/2.a53f85b3.chunk.js.map": "/react-bird-watch/static/js/2.a53f85b3.chunk.js.map",
+    "index.html": "/react-bird-watch/index.html",
+    "precache-manifest.84ab81fcf71da7de62e219638d6a2656.js": "/react-bird-watch/precache-manifest.84ab81fcf71da7de62e219638d6a2656.js",
+    "service-worker.js": "/react-bird-watch/service-worker.js",
+    "static/js/2.a53f85b3.chunk.js.LICENSE.txt": "/react-bird-watch/static/js/2.a53f85b3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09775564.js",
+    "static/js/2.a53f85b3.chunk.js",
+    "static/js/main.6170b2bd.chunk.js"
+  ]
+}
