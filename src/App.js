@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./components/header";
+import Scoreboard from "./components/scoreboard";
 import Card from "./components/card";
 import cards from "./cards.json";
 
@@ -78,17 +79,25 @@ class App extends Component {
             highScore={this.state.highScore}
           />
 
-          <div
-            className={this.state.showAlert === 1 ? "alert active" : "alert"}
-          >
-            <p>Oh! Double-click! Nice try, though.</p>
-          </div>
-          <div
-            className={this.state.showSuccess === 1 ? "alert active" : "alert"}
-          >
-            <p>Very nice! All the way through and no double-clicks.</p>
-          </div>
+          <Scoreboard
+            highScore={this.state.highScore}
+            currentScore={this.state.currentScore}
+          />
 
+          <div className="alertWrapper">
+            <div
+              className={this.state.showAlert === 1 ? "alert active" : "alert"}
+            >
+              <p>Oh! Double-click! Nice try, though.</p>
+            </div>
+            <div
+              className={
+                this.state.showSuccess === 1 ? "alert active" : "alert"
+              }
+            >
+              <p>Very nice! All the way through and no double-clicks.</p>
+            </div>
+          </div>
           <div className="gameboardCards">
             {this.state.cards.map((card) => (
               <Card

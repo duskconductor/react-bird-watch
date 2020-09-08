@@ -12,7 +12,7 @@
 .headerWrapper .headerText {
   width: 100%;
   position: absolute;
-  bottom: 0px;
+  bottom: 1vh;
   font-family: "Love Ya Like A Sister", cursive;
   font-weight: bolder;
 }
@@ -55,9 +55,46 @@ body {
   width: 100vw;
 }
 
+.gameboardWrapper .alertWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gameboardWrapper .alertWrapper .alert {
+  display: none;
+}
+
+.gameboardWrapper .alertWrapper .active {
+  display: block;
+  margin: 2vh;
+  text-align: center;
+  font-family: "Love Ya Like A Sister", cursive;
+  color: red;
+}
+
 .gameboardCards {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 7vh;
   text-align: center;
+}
+
+.scoreboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 1.5vh auto;
+  font-size: 1.5rem;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+.scoreboardEmph {
+  font-weight: bolder;
+  color: #33c3ff;
 }
 /*# sourceMappingURL=style.css.map */
