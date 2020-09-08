@@ -1,98 +1,98 @@
 [
   {
     "id": 1,
-    "image": "/images/albatross.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/albatross.png"
   },
   {
     "id": 2,
-    "image": "/images/blueFootedBooby.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/blueFootedBooby.png"
   },
   {
     "id": 3,
-    "image": "/images/blueJay.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/blueJay.png"
   },
   {
     "id": 4,
-    "image": "/images/cardinal.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/cardinal.png"
   },
   {
     "id": 5,
-    "image": "/images/crow.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/crow.png"
   },
   {
     "id": 6,
-    "image": "/images/eagle.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/eagle.png"
   },
   {
     "id": 7,
-    "image": "/images/falcon.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/falcon.png"
   },
   {
     "id": 8,
-    "image": "/images/finch.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/finch.png"
   },
   {
     "id": 9,
-    "image": "/images/hawk.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/hawk.png"
   },
   {
     "id": 10,
-    "image": "/images/hummingbird.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/hummingbird.png"
   },
   {
     "id": 11,
-    "image": "/images/magpie.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/magpie.png"
   },
   {
     "id": 12,
-    "image": "/images/mallard.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/mallard.png"
   },
   {
     "id": 13,
-    "image": "/images/myna.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/myna.png"
   },
   {
     "id": 14,
-    "image": "/images/ostrich.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/ostrich.png"
   },
   {
     "id": 15,
-    "image": "/images/owl.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/owl.png"
   },
   {
     "id": 16,
-    "image": "/images/pelican.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/pelican.png"
   },
   {
     "id": 17,
-    "image": "/images/penguin.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/penguin.png"
   },
   {
     "id": 18,
-    "image": "/images/puffin.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/puffin.png"
   },
   {
     "id": 19,
-    "image": "/images/sandpiper.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/sandpiper.png"
   },
   {
     "id": 20,
-    "image": "/images/sparrow.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/sparrow.png"
   },
   {
     "id": 21,
-    "image": "/images/woodDuck.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/woodDuck.png"
   },
   {
     "id": 22,
-    "image": "/images/woodpecker.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/woodpecker.png"
   },
   {
     "id": 23,
-    "image": "/images/blueBird.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/blueBird.png"
   },
   {
     "id": 24,
-    "image": "/images/purpleHoneycreeper.png"
+    "image": "https://raw.githubusercontent.com/duskconductor/react-bird-watch/master/public/assets/images/purpleHoneycreeper.png"
   }
 ]
