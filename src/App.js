@@ -86,6 +86,16 @@ class App extends Component {
 
           <div className="alertWrapper">
             <div
+              className={this.state.currentScore === 0 ? "info start" : "info"}
+            >
+              <h4>Press any bird to start!</h4>
+              <p>
+                Click on any bird, but only do so once! If you can choose a
+                unique bird every time, you win!
+              </p>
+            </div>
+
+            <div
               className={this.state.showAlert === 1 ? "alert active" : "alert"}
             >
               <p>Oh! Double-click! Nice try, though.</p>
@@ -98,6 +108,7 @@ class App extends Component {
               <p>Very nice! All the way through and no double-clicks.</p>
             </div>
           </div>
+
           <div className="gameboardCards">
             {this.state.cards.map((card) => (
               <Card
