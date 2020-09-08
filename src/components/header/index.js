@@ -4,7 +4,11 @@ import Scoreboard from "../scoreboard";
 function Header(props) {
   return (
     <div className="headerWrapper">
-      <Scoreboard />
+      <Scoreboard
+        title={props.title}
+        topScore={props.topScore}
+        currentScore={props.currentScore}
+      />
       <div className="subheadWrapper">
         <p>Instructions on how to play</p>
       </div>
