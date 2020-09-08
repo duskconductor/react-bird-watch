@@ -1,98 +1,98 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/albatross.png"
+    "image": "/images/albatross.png"
   },
   {
     "id": 2,
-    "image": "/assets/images/blueFootedBooby.png"
+    "image": "/images/blueFootedBooby.png"
   },
   {
     "id": 3,
-    "image": "/assets/images/blueJay.png"
+    "image": "/images/blueJay.png"
   },
   {
     "id": 4,
-    "image": "/assets/images/cardinal.png"
+    "image": "/images/cardinal.png"
   },
   {
     "id": 5,
-    "image": "/assets/images/crow.png"
+    "image": "/images/crow.png"
   },
   {
     "id": 6,
-    "image": "/assets/images/eagle.png"
+    "image": "/images/eagle.png"
   },
   {
     "id": 7,
-    "image": "/assets/images/falcon.png"
+    "image": "/images/falcon.png"
   },
   {
     "id": 8,
-    "image": "/assets/images/finch.png"
+    "image": "/images/finch.png"
   },
   {
     "id": 9,
-    "image": "/assets/images/hawk.png"
+    "image": "/images/hawk.png"
   },
   {
     "id": 10,
-    "image": "/assets/images/hummingbird.png"
+    "image": "/images/hummingbird.png"
   },
   {
     "id": 11,
-    "image": "/assets/images/magpie.png"
+    "image": "/images/magpie.png"
   },
   {
     "id": 12,
-    "image": "/assets/images/mallard.png"
+    "image": "/images/mallard.png"
   },
   {
     "id": 13,
-    "image": "/assets/images/myna.png"
+    "image": "/images/myna.png"
   },
   {
     "id": 14,
-    "image": "/assets/images/ostrich.png"
+    "image": "/images/ostrich.png"
   },
   {
     "id": 15,
-    "image": "/assets/images/owl.png"
+    "image": "/images/owl.png"
   },
   {
     "id": 16,
-    "image": "/assets/images/pelican.png"
+    "image": "/images/pelican.png"
   },
   {
     "id": 17,
-    "image": "/assets/images/penguin.png"
+    "image": "/images/penguin.png"
   },
   {
     "id": 18,
-    "image": "/assets/images/puffin.png"
+    "image": "/images/puffin.png"
   },
   {
     "id": 19,
-    "image": "/assets/images/sandpiper.png"
+    "image": "/images/sandpiper.png"
   },
   {
     "id": 20,
-    "image": "/assets/images/sparrow.png"
+    "image": "/images/sparrow.png"
   },
   {
     "id": 21,
-    "image": "/assets/images/woodDuck.png"
+    "image": "/images/woodDuck.png"
   },
   {
     "id": 22,
-    "image": "/assets/images/woodpecker.png"
+    "image": "/images/woodpecker.png"
   },
   {
     "id": 23,
-    "image": "/assets/images/blueBird.png"
+    "image": "/images/blueBird.png"
   },
   {
     "id": 24,
-    "image": "/assets/images/purpleHoneycreeper.png"
+    "image": "/images/purpleHoneycreeper.png"
   }
 ]
