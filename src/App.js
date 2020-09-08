@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./components/header";
+import Card from "./components/card";
 import cards from "./cards.json";
 
 class App extends Component {
@@ -23,7 +24,7 @@ class App extends Component {
   selectCard = (id) => {
     let selectedCards = this.state.selectedCards;
     let currentScore = this.state.currentScore;
-    let highScore = this.state.topScore;
+    let highScore = this.state.highScore;
 
     this.setState({
       showAlert: 0,
@@ -38,7 +39,7 @@ class App extends Component {
     } else if (this.state.currentScore === 12) {
       this.setState({
         showSuccess: 1,
-        score: 0,
+        currentScore: 0,
         selectedCards: [],
       });
     } else {
@@ -54,9 +55,9 @@ class App extends Component {
       });
     }
 
-    if (currentScore > highScore) {
+    if (currentScore >= highScore) {
       this.setState({
-        highScore: currentScore,
+        highScore: currentScore + 1,
       });
     }
   };
@@ -88,6 +89,16 @@ class App extends Component {
             currentScore={this.state.currentScore}
             highScore={this.state.highScore}
           />
+          <div className="gameboardCards">
+            {this.state.cards.map((card) => (
+              <Card
+                key={card.id}
+                id={card.id}
+                image={card.image}
+                selectCard={this.selectCard}
+              />
+            ))}
+          </div>
         </div>
       </div>
     );

@@ -6,7 +6,7 @@ function Header(props) {
     <div className="headerWrapper">
       <Scoreboard
         title={props.title}
-        topScore={props.topScore}
+        highScore={props.highScore}
         currentScore={props.currentScore}
       />
       <div className="subheadWrapper">
