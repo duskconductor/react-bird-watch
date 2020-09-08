@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-bird-watch/precache-manifest.84ab81fcf71da7de62e219638d6a2656.js"
+  "/react-bird-watch/precache-manifest.c5cc237fcb674ec5b4551ee0704f710c.js"
 );
 
 self.addEventListener('message', (event) => {
