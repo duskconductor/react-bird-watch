@@ -48,8 +48,6 @@ class App extends Component {
         selectedCards: [],
       });
 
-      console.log("duplicate");
-
       this.setState({
         showAlert: 1,
       });
@@ -74,6 +72,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="gameboardWrapper">
+          <Header
+            title="React Clicky Game"
+            currentScore={this.state.currentScore}
+            highScore={this.state.highScore}
+          />
+
           <div
             className={this.state.showAlert === 1 ? "alert active" : "alert"}
           >
@@ -84,11 +88,7 @@ class App extends Component {
           >
             <p>Very nice! All the way through and no double-clicks.</p>
           </div>
-          <Header
-            title="React Clicky Game"
-            currentScore={this.state.currentScore}
-            highScore={this.state.highScore}
-          />
+
           <div className="gameboardCards">
             {this.state.cards.map((card) => (
               <Card

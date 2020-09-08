@@ -1,16 +1,10 @@
 import React from "react";
-import Scoreboard from "../scoreboard";
 
 function Header(props) {
   return (
     <div className="headerWrapper">
-      <Scoreboard
-        title={props.title}
-        highScore={props.highScore}
-        currentScore={props.currentScore}
-      />
-      <div className="subheadWrapper">
-        <p>Instructions on how to play</p>
+      <div className="headerText">
+        <h1>{props.title}</h1>
       </div>
     </div>
   );

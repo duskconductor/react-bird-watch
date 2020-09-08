@@ -1,0 +1,15 @@
+@import "variables", "header", "card";
+
+body {
+  font-family: $body-font-fam;
+}
+
+.gameboardWrapper {
+  width: 100vw;
+}
+
+.gameboardCards {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}

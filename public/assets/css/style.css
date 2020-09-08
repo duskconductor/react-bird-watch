@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Amethysta&family=Love+Ya+Like+A+Sister&display=swap");
+.headerWrapper {
+  position: relative;
+  width: 100vw;
+  height: 150px;
+  background: url("../images/headerBackground.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.headerWrapper .headerText {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: bolder;
+}
+
+.headerWrapper .headerText h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.cardContainer {
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 1vw;
+}
+
+.cardContainer .imageContainer {
+  width: 100%;
+}
+
+.cardContainer .imageContainer img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.cardContainer .imageContainer img:hover {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Amethysta", serif;
+}
+
+.gameboardWrapper {
+  width: 100vw;
+}
+
+.gameboardCards {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
