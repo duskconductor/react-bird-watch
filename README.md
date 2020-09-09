@@ -1,6 +1,6 @@
 # React Bird Watcher
 
-**Link to Live:**
+**Link to Live:** https://duskconductor.github.io/react-bird-watch/
 
 Test your memory with birds! Click on a new bird for 12 turns and you win!
 
@@ -21,4 +21,4 @@ Minimum Viable Product.
 
 ## Screenshot
 
-<img src="./screencap.png">
+<img src="./screencap.PNG">
