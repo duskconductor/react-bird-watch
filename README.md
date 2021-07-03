@@ -1,23 +1,10 @@
 # React Bird Watcher
 
-**Link to Live:** https://duskconductor.github.io/react-bird-watch/
+**Link to Live:** 
 
-Test your memory with birds! Click on a new bird for 12 turns and you win!
+Example of utilizing React components to create a memory game (with birds, of course).
 
-## Motivation
-
-Completed as a homework assignment for UCLA Bookcamp.
-
-## Build Status
-
-Minimum Viable Product.
-
-## Languages/Technologies/Frameworks Used
-
-- HTML
-- Sass
-- Javascript
-- React
+Used to show students how to break an app down into React components **and** how to use classes/states in React (since the cirriculum these days only briefly mentions classes and runs off with hooks and the like).
 
 ## Screenshot
 
